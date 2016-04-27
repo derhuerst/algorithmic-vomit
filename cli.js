@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict'
 
 const size   = require('window-size')
@@ -23,4 +24,6 @@ const patterns = {
 	}
 }
 
-fill(patterns.stripes)
+const pattern = process.argv[2]
+if (pattern in patterns) fill(patterns[pattern])
+else process.stderr.write('Unknown pattern.\n')
