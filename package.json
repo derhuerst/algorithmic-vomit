@@ -16,6 +16,8 @@
 		"window-size":     "^0.2",
 		"ansi-escapes":    "^1.4",
 		"ansi-256-colors": "^1.1",
-		"alphabet":        "^1"
+		"alphabet":        "^1",
+		"simplex-noise":   "^2.2",
+		"worley-noise":    "^1"
 	}
 }
