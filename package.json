@@ -3,7 +3,7 @@
 	"description":  "Algorithmic crypto unicorn vomit.",
 	"version":      "0.1.0",
 	"main":         "index.js",
-	"files":        ["index.js"],
+	"files":        ["index.js", "cli.js"],
 	"author":       "Jannis R <mail@jannisr.de>",
 	"homepage":     "https://github.com/derhuerst/algorithmic-vomit",
 	"repository":   "git://github.com/derhuerst/algorithmic-vomit.git",
@@ -19,6 +19,6 @@
 		"ansi-256-colors": "^1.1",
 		"alphabet":        "^1",
 		"simplex-noise":   "^2.2",
-		"worley-noise":    "zsoltc/worley-noise"
+		"worley-noise":    "derhuerst/worley-noise"
 	}
 }
