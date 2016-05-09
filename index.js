@@ -13,17 +13,21 @@ const char = () => alphabet[Math.round(
 const color = (pattern, x, y) => colors.fg.codes[20 + Math.round(
 	(colors.fg.codes.length - 21) * pattern(x, y))] || colors.fg.codes[0]
 
+const out = process.stdout
+
+
+
 const fill = (pattern) => {
-	process.stdout.write(esc.clearScreen)
+	out.write(esc.clearScreen)
+	let lastColor = NaN
 	for (let y = 0; y < (size.height - 1); y++) {
 		for (let x = 0; x < size.width; x++) {
-			// console.log(pattern(x, y))
-			process.stdout.write(
-				  color(pattern, x, y)
-				+ char()
-				+ colors.reset)
+			const c = color(pattern, x, y)
+			if (c === lastColor) out.write(char())
+			else out.write(colors.reset + c + char())
 		}
 	}
+	out.write(colors.reset)
 }
 
 module.exports = fill
