@@ -2,6 +2,8 @@
 
 [Vomitting crypto unicorn](https://asciinema.org/a/18744) on steroids.
 
+[![asciicast](https://asciinema.org/a/45057.png)](https://asciinema.org/a/45057)
+
 [![npm version](https://img.shields.io/npm/v/algorithmic-vomit.svg)](https://www.npmjs.com/package/algorithmic-vomit)
 [![build status](https://img.shields.io/travis/derhuerst/algorithmic-vomit.svg)](https://travis-ci.org/derhuerst/algorithmic-vomit)
 [![dependency status](https://img.shields.io/david/derhuerst/algorithmic-vomit.svg)](https://david-dm.org/derhuerst/algorithmic-vomit)
