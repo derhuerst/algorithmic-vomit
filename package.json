@@ -1,7 +1,7 @@
 {
 	"name":         "algorithmic-vomit",
 	"description":  "Algorithmic crypto unicorn vomit.",
-	"version":      "0.1.0",
+	"version":      "0.1.1",
 	"main":         "index.js",
 	"files":        ["index.js", "cli.js"],
 	"author":       "Jannis R <mail@jannisr.de>",
