@@ -1,7 +1,5 @@
 # *algorithmic-vomit* ⏱
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/algorithmic-vomit.svg)](https://greenkeeper.io/)
-
 [Vomitting crypto unicorn](https://asciinema.org/a/18744) on steroids.
 
 [![asciicast](https://asciinema.org/a/45057.png)](https://asciinema.org/a/45057)
