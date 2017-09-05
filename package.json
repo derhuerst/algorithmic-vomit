@@ -15,7 +15,7 @@
 	"bin":          {"vomit": "cli.js"},
 	"dependencies": {
 		"window-size":     "^1.0.0",
-		"ansi-escapes":    "^2.0.0",
+		"ansi-escapes":    "^3.0.0",
 		"ansi-256-colors": "^1.1",
 		"alphabet":        "^1",
 		"simplex-noise":   "^2.2",
