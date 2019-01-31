@@ -19,7 +19,7 @@
 		"ansi-256-colors": "^1.1",
 		"alphabet":        "^1",
 		"simplex-noise":   "^2.2",
-		"worley-noise":    "^1.0.1"
+		"worley-noise":    "^2.0.0"
 	},
 	"scripts": {
 		"test": "./cli.js worley"
