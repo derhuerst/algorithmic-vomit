@@ -1,25 +1,37 @@
 {
-	"name":         "algorithmic-vomit",
-	"description":  "Algorithmic crypto unicorn vomit.",
-	"version":      "0.1.1",
-	"main":         "index.js",
-	"files":        ["index.js", "cli.js"],
-	"author":       "Jannis R <mail@jannisr.de>",
-	"homepage":     "https://github.com/derhuerst/algorithmic-vomit",
-	"repository":   "git://github.com/derhuerst/algorithmic-vomit.git",
-	"bugs":         "https://github.com/derhuerst/algorithmic-vomit/issues",
-	"license":      "ISC",
+	"name": "algorithmic-vomit",
+	"description": "Algorithmic crypto unicorn vomit.",
+	"version": "0.1.1",
+	"main": "index.js",
 	"preferGlobal": true,
-	"engines":      {"node": ">=4"},
-	"keywords":     ["crypto", "unicorn", "vomit", "algorithms"],
-	"bin":          {"vomit": "cli.js"},
+	"bin": {
+		"vomit": "cli.js"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"crypto",
+		"unicorn",
+		"vomit",
+		"algorithms"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/algorithmic-vomit",
+	"repository": "git://github.com/derhuerst/algorithmic-vomit.git",
+	"bugs": "https://github.com/derhuerst/algorithmic-vomit/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=4"
+	},
 	"dependencies": {
-		"window-size":     "^1.0.0",
-		"ansi-escapes":    "^3.0.0",
-		"ansi-256-colors": "^1.1",
-		"alphabet":        "^1",
-		"simplex-noise":   "^2.2",
-		"worley-noise":    "^1.0.1"
+		"alphabet": "^1.0.0",
+		"ansi-256-colors": "^1.1.0",
+		"ansi-escapes": "^3.0.0",
+		"simplex-noise": "^2.2.0",
+		"window-size": "^1.0.0",
+		"worley-noise": "^1.0.1"
 	},
 	"scripts": {
 		"test": "./cli.js worley"
