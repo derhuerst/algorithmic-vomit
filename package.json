@@ -31,7 +31,7 @@
 		"ansi-escapes": "^3.0.0",
 		"simplex-noise": "^2.2.0",
 		"window-size": "^1.0.0",
-		"worley-noise": "^1.0.1"
+		"worley-noise": "^2.0.1"
 	},
 	"scripts": {
 		"test": "./cli.js worley"
