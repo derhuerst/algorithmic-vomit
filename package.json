@@ -28,7 +28,7 @@
 	"dependencies": {
 		"alphabet": "^1.0.0",
 		"ansi-256-colors": "^1.1.0",
-		"ansi-escapes": "^3.0.0",
+		"ansi-escapes": "^4.1.0",
 		"simplex-noise": "^2.2.0",
 		"window-size": "^1.0.0",
 		"worley-noise": "^2.0.1"
